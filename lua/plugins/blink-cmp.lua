@@ -5,7 +5,11 @@ return {
     version = '1.*',
 
     opts = {
-        keymap = { preset = 'default' },
+        keymap = {
+            preset = 'default',
+
+            ["<return>"] = {"accept"},
+        },
 
         appearance = {
             use_nvim_cmp_as_default = true,
