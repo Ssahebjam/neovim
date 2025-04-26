@@ -7,8 +7,6 @@ return {
     opts = {
         keymap = {
             preset = 'default',
-
-            ["<return>"] = {"accept"},
         },
 
         appearance = {

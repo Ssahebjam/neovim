@@ -50,10 +50,13 @@ set("n", "<leader>j", "<C-w>j", {silent = true})
 set("n", "<leader>k>", "<C-w>k", {silent = true})
 set("n", "<leader>l", "<C-w>l", {silent = true})
 
-vim.keymap.set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
+set("n", "<leader>|", "<cmd>vsplit<CR>", { noremap = true, silent = true })
+set("n", "<leader>/", "<cmd>split<CR>", { noremap = true, silent = true })
+set("n", "<leader>`", "<C-w>o")
 
-vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true })
+
+
+set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true })
 
 vim.opt.statusline = "%f %y %m %r %= %p%% %l:%c"
 
