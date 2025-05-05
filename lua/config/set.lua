@@ -3,7 +3,7 @@ local opt = vim.opt
 
 set("n", "<C-b>", ":Ex<cr>")
 
-vim.opt.guicursor = "n-v-c:block-Cursor,i-ci-ve:ver25-Cursor,r-cr-o:hor20-Cursor,a:blinkon500-blinkoff500"
+vim.opt.guicursor = "n-v-c-sm:block-blinkon1000,i-ci-ve:block-blinkon1000,r-cr-o:hor20,a:blinkwait2000-blinkoff1200-blinkon1000"
 vim.g.mapleader = " "
 
 set("n", "<leader>p", '"+p')
